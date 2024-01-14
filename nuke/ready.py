@@ -26,12 +26,12 @@ class ready(commands.Cog):
 
 
     async def menu(self):
-        os.system("cls & mode 100, 25 & title Rex Nuker V4")
+        os.system("cls & mode 100, 25 & title oxi Nuker V4")
         try: await self.client.change_presence(status=discord.Status.invisible)
         except Exception: pass
         print(Colorate.Horizontal(Colors.blue_to_cyan, menu, 1))
         print()
-        logging.info("Welcome to Rex V4! - Krypton")
+        logging.info("Welcome to oxi V4! - kyb6r")
         logging.info("Client loaded as {}".format(self.client.user))
 
     @commands.Cog.listener()
@@ -52,11 +52,11 @@ prefix = json["Nuke Settings"]["Prefix"]
 
 
 menu = f"""
-                            ▄▄▄  ▄▄▄ .▐▄• ▄      ▐ ▄ ▄• ▄▌▄ •▄ ▄▄▄ .▄▄▄  
-                            ▀▄ █·▀▄.▀· █▌█▌▪    •█▌▐██▪██▌█▌▄▌▪▀▄.▀·▀▄ █·
-                            ▐▀▀▄ ▐▀▀▪▄ ·██·     ▐█▐▐▌█▌▐█▌▐▀▀▄·▐▀▀▪▄▐▀▀▄ 
-                            ▐█•█▌▐█▄▄▌▪▐█·█▌    ██▐█▌▐█▄█▌▐█.█▌▐█▄▄▌▐█•█▌
-                            .▀  ▀ ▀▀▀ •▀▀ ▀▀    ▀▀ █▪ ▀▀▀ ·▀  ▀ ▀▀▀ .▀  ▀                
+                                             ____    _  __    ____
+                                          / __ \  | |/ /   /  _/
+                                         / / / /  |   /    / /  
+                                        / /_/ /  /   |   _/ /   
+                                        \____/  /_/|_|  /___/                
            ──────────────────────────────────────────────────────────────────────────────
                 ────────────────────────────────────────────────────────────────────
                                          * Nuke Commands *
@@ -67,8 +67,8 @@ menu = f"""
                    | {prefix}rc - Creates Roles         | {prefix}testban - Tests Mass Ban    |
                    +────────────────────────────────────────────────────────────+
 - 
-│ Created By Krypton
-| Version: 4.1
+│ Created By @kyb6r
+| Version: 1.7
 - 
 """
 
