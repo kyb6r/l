@@ -1,5 +1,5 @@
 """
-Created By: Krypton/krypton#4165
+Created By: kybr/kyb6r
 An easy asynchronous Python "Discord Nuke Bot" for educational purposes *ONLY*!
 Features: Fast Mass Banning, Fast Webhook Spamming, Customizable Delay & Tasks, Proxy Support.
 """
@@ -15,7 +15,7 @@ logging.basicConfig(
     datefmt="%H:%M:%S" 
 )
 
-os.system("cls & mode 100, 25 & title Rex Nuker V4")
+os.system("cls & mode 100, 25 & title oxi Nuker V4")
 
 with open("settings.json", encoding="utf8") as file:
     try:
