@@ -10,12 +10,12 @@
     "Nuke Settings": {
         "Token": "",
         "Prefix": ",",
-        "Server Name": "lol",
-        "Channel Names": ["comet v3", "get sonned lol"],
-        "Role Names": ["comet v3 owo", "comet recoded!"],
+        "Server Name": "#kyb6rWasHere",
+        "Channel Names": ["oxi owns u", "get sonned lol"],
+        "Role Names": ["oxi owo", "oxi w!"],
         "Spam Contents": [
             "@everyone get beamed discord.gg/socials",
-            "@everyone comet v3.1",
+            "@everyone oxi",
             "@everyone imagine 😭😂"
         ],
         "Webhook Usernames": [
